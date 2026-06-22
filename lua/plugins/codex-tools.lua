@@ -13,17 +13,17 @@ return {
     "mason-org/mason.nvim",
     opts = function(_, opts)
       opts.ensure_installed = extend_unique(opts.ensure_installed, {
+        "basedpyright",
         "bash-language-server",
         "eslint_d",
         "json-lsp",
         "lua-language-server",
         "marksman",
         "prettierd",
-        "pyright",
         "shellcheck",
         "shfmt",
         "stylua",
-        "typescript-language-server",
+        "vtsls",
         "yaml-language-server",
       })
     end,
